@@ -183,7 +183,7 @@ p.sp{color:var(--muted);font-size:1.05rem;line-height:1.8;max-width:640px;}
 <!-- NAVBAR -->
 <nav class="nav" id="nav">
   <a href="../index.html" class="nav-logo">
-    <img src="../images/logo.jpeg" alt="STEM FOR ALL Logo" style="height:44px;width:auto;object-fit:contain;"/>
+   
   </a>
   <ul class="nl" id="nl">
     <li><a href="../index.html#about">About</a></li>
@@ -362,12 +362,12 @@ p.sp{color:var(--muted);font-size:1.05rem;line-height:1.8;max-width:640px;}
 <footer class="footer">
   <div class="foot-grid">
     <div class="fb">
-      <a href="../index.html" class="nav-logo" style="color:white;">
-        <img src="../images/logo.jpeg" alt="STEM FOR ALL Logo" style="height:50px;width:auto;object-fit:contain;"/>
-      </a>
+      <p style="font-size:1.1rem;font-weight:800;color:#ffffff;letter-spacing:.02em;margin-bottom:.75rem;">STEM FOR ALL Ghana</p>
       <p>A youth-led non-profit organization in Ghana dedicated to making STEM education inclusive, practical, and climate-responsive for all learners in underserved communities.</p>
-      <p style="margin-top:.75rem;font-size:.875rem;color:rgba(255,255,255,.6);">
-         <a href="tel:+233550502984" style="color:rgba(255,255,255,.7);transition:color .3s;" onmouseover="this.style.color='#F5C518'" onmouseout="this.style.color='rgba(255,255,255,.7)'">+233 550 502 984</a>
+      <p style="margin-top:1rem;font-size:.875rem;color:rgba(255,255,255,.6);line-height:2;">
+        Airport Residential Area, House No. 76 Block B<br>
+        <a href="tel:+233550502984" style="color:rgba(255,255,255,.7);transition:color .3s;" onmouseover="this.style.color='#F5C518'" onmouseout="this.style.color='rgba(255,255,255,.7)'">+233 550 502 984</a><br>
+        <a href="mailto:stem4allgh@gmail.com" style="color:rgba(255,255,255,.7);transition:color .3s;" onmouseover="this.style.color='#F5C518'" onmouseout="this.style.color='rgba(255,255,255,.7)'">stem4allgh@gmail.com</a>
       </p>
       <div class="social-links">
         <a href="https://www.facebook.com/share/1EFE8vdYmb/" target="_blank" rel="noopener" aria-label="Facebook">
@@ -379,7 +379,7 @@ p.sp{color:var(--muted);font-size:1.05rem;line-height:1.8;max-width:640px;}
         <a href="https://www.linkedin.com/company/it-hub-org/" target="_blank" rel="noopener" aria-label="LinkedIn">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         </a>
-        <a href="/cdn-cgi/l/email-protection#8ffcfbeae2bbeee3e3e8e7cfe8e2eee6e3a1ece0e2" aria-label="Email">
+        <a href="mailto:stem4allgh@gmail.com" aria-label="Email">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
         </a>
       </div>
@@ -414,7 +414,7 @@ p.sp{color:var(--muted);font-size:1.05rem;line-height:1.8;max-width:640px;}
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 const $=id=>document.getElementById(id);
 window.addEventListener('scroll',()=>{
   $('sp').style.width=(window.scrollY/(document.documentElement.scrollHeight-window.innerHeight)*100)+'%';
@@ -435,11 +435,11 @@ document.querySelectorAll('.rv').forEach(el=>rObs.observe(el));
 document.querySelectorAll('a[href^="#"]').forEach(a=>{
   a.addEventListener('click',e=>{
     const t=document.querySelector(a.getAttribute('href'));
-   
     if(t){e.preventDefault();window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-90,behavior:'smooth'});}
   });
 });
 const yr=$('yr');if(yr)yr.textContent=new Date().getFullYear();
 </script>
+
 </body>
 </html>
